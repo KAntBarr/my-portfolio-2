@@ -3,9 +3,11 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #3e5820;
+    /* background-image: url("../images/graphite-background"); */
+    margin: 10px;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -35,4 +37,33 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin: 5px;
+}
+
+header nav ul li a,
+header nav ul li a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 5px;
+}
+
+.main {
+
+}
+
+section section {
+    display: flex;
+}
+
+section h2 {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 6px;
+}
+
+.bar {
+    height: auto;
+    background-color: black;
+    margin: 20px;
+    width: 10px;
 }
