@@ -1,5 +1,10 @@
 body {
     background-color: #85a168;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    height: 100vh;
+    /* figure out how to make body take full height */
 }
 
 header {
@@ -48,22 +53,61 @@ header nav ul li a:visited {
 }
 
 .main {
-
+    
 }
 
 section section {
     display: flex;
+    margin: 30px;
 }
 
 section h2 {
     background-color: #444444;
     color: #ffffff;
     padding: 6px;
+    height: 55px;
+    text-align: center;
+    /* figure out how to vertically center text */
 }
 
 .bar {
     height: auto;
     background-color: black;
-    margin: 20px;
+    margin: 0px 20px;
     width: 10px;
+    /* align bars */
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.first-app {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-size: 200px;
+    background-image: url("../images/loading-1");
+}
+
+.other-apps {
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+    background-size: 125px;
+    background-image: url("../images/loading-1");
+}
+
+.contact-info {
+    /* stylize */
 }
