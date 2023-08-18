@@ -26,7 +26,14 @@ header h1 {
 header nav {
     flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    background-size: 100px;
+    background-image: url("../images/icon.png");
 }
 
 header nav ul {
@@ -64,6 +71,7 @@ section section {
 section h2 {
     background-color: #444444;
     color: #ffffff;
+    width: 125px;
     padding: 6px;
     height: 55px;
     text-align: center;
