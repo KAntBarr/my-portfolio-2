@@ -101,10 +101,10 @@ section h2 {
 }
 
 .first-app {
-    height: 200px;
+    height: 125px;
     width: 200px;
     margin: 10px;
-    background-size: 200px;
+    background-size: 100%;
     background-image: url("../images/project-1.png");
 }
 
