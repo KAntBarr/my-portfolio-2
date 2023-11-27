@@ -108,6 +108,14 @@ section h2 {
     background-image: url("../images/project-1.png");
 }
 
+.second-app {
+    height: 125px;
+    width: 200px;
+    margin: 10px;
+    background-size: 100%;
+    background-image: url("../images/project-2.png");
+}
+
 .other-apps {
     height: 125px;
     width: 125px;
